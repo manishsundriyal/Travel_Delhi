@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sundriyal.delhiapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Description" />
+        <activity android:name=".northindianlist" />
+        <activity android:name=".mughlailist" />
+        <activity android:name=".fastfoodlist" />
+        <activity android:name=".streetfoodlist" />
+        <activity android:name=".north_description" />
+        <activity android:name=".mughlai_description" />
+        <activity android:name=".fastfood_description" />
+        <activity android:name=".streetfood_description" />
+        <activity android:name=".historiclist" />
+        <activity android:name=".religiouslist" />
+        <activity android:name=".gallerylist" />
+        <activity android:name=".historic_description" />
+        <activity android:name=".religious_description" />
+        <activity android:name=".gallery_description"></activity>
+    </application>
+
+</manifest>
